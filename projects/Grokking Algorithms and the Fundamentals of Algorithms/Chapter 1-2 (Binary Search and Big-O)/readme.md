@@ -42,18 +42,18 @@ The goal of this code is to measure how both search algorithms perform under dif
 
 ## 🖨️ Output Format
 
-Index of [Array Size] Array
-Linear Search
-Time → Execution time for value near beginning
-Time → Execution time for value near middle
-Time → Execution time for value near end
-Time → Execution time for non-existent value
+Index of [Array Size] Array  
+Linear Search  
+Time → Execution time for value near beginning  
+Time → Execution time for value near middle  
+Time → Execution time for value near end  
+Time → Execution time for non-existent value  
 
-Binary Search
-Time → Execution time for value near beginning
-Time → Execution time for value near middle
-Time → Execution time for value near end
-Time → Execution time for non-existent value
+Binary Search  
+Time → Execution time for value near beginning  
+Time → Execution time for value near middle  
+Time → Execution time for value near end  
+Time → Execution time for non-existent value  
 
 ---
 
@@ -91,133 +91,133 @@ The experiment highlights the significant performance difference between **O(n)*
 
 ## 🖨️ Example Output
 
-1
-Linear Search
-Time difference for array which has 10 elements = 125[ns]
-Time difference for array which has 10 elements = 125[ns]
-Time difference for array which has 10 elements = 125[ns]
-Time difference for array which has 10 elements = 166[ns]
-
-Binary Search
-Time difference for array which has 10 elements = 167[ns]
-Time difference for array which has 10 elements = 84[ns]
-Time difference for array which has 10 elements = 167[ns]
-Time difference for array which has 10 elements = 166[ns]
-
-2
-Linear Search
-Time difference for array which has 50 elements = 42[ns]
-Time difference for array which has 50 elements = 208[ns]
-Time difference for array which has 50 elements = 291[ns]
-Time difference for array which has 50 elements = 292[ns]
-
-Binary Search
-Time difference for array which has 50 elements = 208[ns]
-Time difference for array which has 50 elements = 208[ns]
-Time difference for array which has 50 elements = 208[ns]
-Time difference for array which has 50 elements = 208[ns]
-
-3
-Linear Search
-Time difference for array which has 100 elements = 83[ns]
-Time difference for array which has 100 elements = 250[ns]
-Time difference for array which has 100 elements = 459[ns]
-Time difference for array which has 100 elements = 458[ns]
-
-Binary Search
-Time difference for array which has 100 elements = 125[ns]
-Time difference for array which has 100 elements = 167[ns]
-Time difference for array which has 100 elements = 125[ns]
-Time difference for array which has 100 elements = 209[ns]
-
-4
-Linear Search
-Time difference for array which has 500 elements = 333[ns]
-Time difference for array which has 500 elements = 1042[ns]
-Time difference for array which has 500 elements = 1958[ns]
-Time difference for array which has 500 elements = 2125[ns]
-
-Binary Search
-Time difference for array which has 500 elements = 250[ns]
-Time difference for array which has 500 elements = 250[ns]
-Time difference for array which has 500 elements = 167[ns]
-Time difference for array which has 500 elements = 292[ns]
-
-5
-Linear Search
-Time difference for array which has 1000 elements = 84[ns]
-Time difference for array which has 1000 elements = 1583[ns]
-Time difference for array which has 1000 elements = 2750[ns]
-Time difference for array which has 1000 elements = 3166[ns]
-
-Binary Search
-Time difference for array which has 1000 elements = 208[ns]
-Time difference for array which has 1000 elements = 208[ns]
-Time difference for array which has 1000 elements = 250[ns]
-Time difference for array which has 1000 elements = 167[ns]
-
-6
-Linear Search
-Time difference for array which has 5000 elements = 583[ns]
-Time difference for array which has 5000 elements = 4083[ns]
-Time difference for array which has 5000 elements = 8666[ns]
-Time difference for array which has 5000 elements = 9583[ns]
-
-Binary Search
-Time difference for array which has 5000 elements = 167[ns]
-Time difference for array which has 5000 elements = 166[ns]
-Time difference for array which has 5000 elements = 167[ns]
-Time difference for array which has 5000 elements = 167[ns]
-
-7
-Linear Search
-Time difference for array which has 10000 elements = 208[ns]
-Time difference for array which has 10000 elements = 7083[ns]
-Time difference for array which has 10000 elements = 13584[ns]
-Time difference for array which has 10000 elements = 15291[ns]
-
-Binary Search
-Time difference for array which has 10000 elements = 208[ns]
-Time difference for array which has 10000 elements = 125[ns]
-Time difference for array which has 10000 elements = 84[ns]
-Time difference for array which has 10000 elements = 125[ns]
-
-8
-Linear Search
-Time difference for array which has 50000 elements = 584[ns]
-Time difference for array which has 50000 elements = 29083[ns]
-Time difference for array which has 50000 elements = 53208[ns]
-Time difference for array which has 50000 elements = 57208[ns]
-
-Binary Search
-Time difference for array which has 50000 elements = 42[ns]
-Time difference for array which has 50000 elements = 83[ns]
-Time difference for array which has 50000 elements = 125[ns]
-Time difference for array which has 50000 elements = 125[ns]
-
-9
-Linear Search
-Time difference for array which has 100000 elements = 8333[ns]
-Time difference for array which has 100000 elements = 69667[ns]
-Time difference for array which has 100000 elements = 123167[ns]
-Time difference for array which has 100000 elements = 132875[ns]
-
-Binary Search
-Time difference for array which has 100000 elements = 208[ns]
-Time difference for array which has 100000 elements = 250[ns]
-Time difference for array which has 100000 elements = 125[ns]
-Time difference for array which has 100000 elements = 167[ns]
-
-10
-Linear Search
-Time difference for array which has 150000 elements = 10333[ns]
-Time difference for array which has 150000 elements = 90667[ns]
-Time difference for array which has 150000 elements = 175541[ns]
-Time difference for array which has 150000 elements = 191583[ns]
-
-Binary Search
-Time difference for array which has 150000 elements = 166[ns]
-Time difference for array which has 150000 elements = 209[ns]
-Time difference for array which has 150000 elements = 209[ns]
-Time difference for array which has 150000 elements = 167[ns]
+1  
+Linear Search  
+Time difference for array which has 10 elements = 125[ns]  
+Time difference for array which has 10 elements = 125[ns]  
+Time difference for array which has 10 elements = 125[ns]  
+Time difference for array which has 10 elements = 166[ns]  
+  
+Binary Search  
+Time difference for array which has 10 elements = 167[ns]  
+Time difference for array which has 10 elements = 84[ns]  
+Time difference for array which has 10 elements = 167[ns]  
+Time difference for array which has 10 elements = 166[ns]  
+  
+2  
+Linear Search  
+Time difference for array which has 50 elements = 42[ns]  
+Time difference for array which has 50 elements = 208[ns]  
+Time difference for array which has 50 elements = 291[ns]  
+Time difference for array which has 50 elements = 292[ns]  
+  
+Binary Search  
+Time difference for array which has 50 elements = 208[ns]  
+Time difference for array which has 50 elements = 208[ns]  
+Time difference for array which has 50 elements = 208[ns]  
+Time difference for array which has 50 elements = 208[ns]  
+  
+3  
+Linear Search  
+Time difference for array which has 100 elements = 83[ns]  
+Time difference for array which has 100 elements = 250[ns]  
+Time difference for array which has 100 elements = 459[ns]  
+Time difference for array which has 100 elements = 458[ns]  
+  
+Binary Search  
+Time difference for array which has 100 elements = 125[ns]  
+Time difference for array which has 100 elements = 167[ns]  
+Time difference for array which has 100 elements = 125[ns]  
+Time difference for array which has 100 elements = 209[ns]  
+  
+4  
+Linear Search  
+Time difference for array which has 500 elements = 333[ns]  
+Time difference for array which has 500 elements = 1042[ns]  
+Time difference for array which has 500 elements = 1958[ns]  
+Time difference for array which has 500 elements = 2125[ns]  
+  
+Binary Search  
+Time difference for array which has 500 elements = 250[ns]  
+Time difference for array which has 500 elements = 250[ns]  
+Time difference for array which has 500 elements = 167[ns]  
+Time difference for array which has 500 elements = 292[ns]  
+  
+5  
+Linear Search  
+Time difference for array which has 1000 elements = 84[ns]  
+Time difference for array which has 1000 elements = 1583[ns]  
+Time difference for array which has 1000 elements = 2750[ns]  
+Time difference for array which has 1000 elements = 3166[ns]  
+  
+Binary Search  
+Time difference for array which has 1000 elements = 208[ns]  
+Time difference for array which has 1000 elements = 208[ns]  
+Time difference for array which has 1000 elements = 250[ns]  
+Time difference for array which has 1000 elements = 167[ns]  
+  
+6  
+Linear Search  
+Time difference for array which has 5000 elements = 583[ns]  
+Time difference for array which has 5000 elements = 4083[ns]  
+Time difference for array which has 5000 elements = 8666[ns]  
+Time difference for array which has 5000 elements = 9583[ns]  
+  
+Binary Search  
+Time difference for array which has 5000 elements = 167[ns]  
+Time difference for array which has 5000 elements = 166[ns]  
+Time difference for array which has 5000 elements = 167[ns]  
+Time difference for array which has 5000 elements = 167[ns]  
+  
+7  
+Linear Search  
+Time difference for array which has 10000 elements = 208[ns]  
+Time difference for array which has 10000 elements = 7083[ns]  
+Time difference for array which has 10000 elements = 13584[ns]  
+Time difference for array which has 10000 elements = 15291[ns]  
+  
+Binary Search  
+Time difference for array which has 10000 elements = 208[ns]  
+Time difference for array which has 10000 elements = 125[ns]  
+Time difference for array which has 10000 elements = 84[ns]  
+Time difference for array which has 10000 elements = 125[ns]  
+  
+8  
+Linear Search  
+Time difference for array which has 50000 elements = 584[ns]  
+Time difference for array which has 50000 elements = 29083[ns]  
+Time difference for array which has 50000 elements = 53208[ns]  
+Time difference for array which has 50000 elements = 57208[ns]  
+  
+Binary Search  
+Time difference for array which has 50000 elements = 42[ns]  
+Time difference for array which has 50000 elements = 83[ns]  
+Time difference for array which has 50000 elements = 125[ns]  
+Time difference for array which has 50000 elements = 125[ns]  
+  
+9  
+Linear Search  
+Time difference for array which has 100000 elements = 8333[ns]  
+Time difference for array which has 100000 elements = 69667[ns]  
+Time difference for array which has 100000 elements = 123167[ns]  
+Time difference for array which has 100000 elements = 132875[ns]  
+  
+Binary Search  
+Time difference for array which has 100000 elements = 208[ns]  
+Time difference for array which has 100000 elements = 250[ns]  
+Time difference for array which has 100000 elements = 125[ns]  
+Time difference for array which has 100000 elements = 167[ns]  
+  
+10  
+Linear Search  
+Time difference for array which has 150000 elements = 10333[ns]  
+Time difference for array which has 150000 elements = 90667[ns]  
+Time difference for array which has 150000 elements = 175541[ns]  
+Time difference for array which has 150000 elements = 191583[ns]  
+  
+Binary Search  
+Time difference for array which has 150000 elements = 166[ns]  
+Time difference for array which has 150000 elements = 209[ns]  
+Time difference for array which has 150000 elements = 209[ns]  
+Time difference for array which has 150000 elements = 167[ns]  
 
