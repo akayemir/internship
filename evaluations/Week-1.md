@@ -77,7 +77,7 @@ Created new graphs in Grafana to visualize the metrics that Prometheus collected
 
 ## Day 4
 
-* Defined a custom metric. (Temperature Prediction)
+* Defined a custom metric. (Temperature Prediction)  
   New meter configuration in Program.cs file:  
 ```yaml 
 List<Measurement<double>> observedTemperatures = new();
