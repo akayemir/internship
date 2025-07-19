@@ -70,7 +70,7 @@ scrape_configs:
     scrape_interval: 5s
     metrics_path: '/metrics'
 ```
-Created new graphs in Grafana to visualize the metrics that Prometheus collected.
+* Created new graphs in Grafana to visualize the metrics that Prometheus collected.
 <img width="3018" height="1476" alt="image" src="https://github.com/user-attachments/assets/ad82297e-b671-4f35-a83a-e5af929aa537" />
 
 
