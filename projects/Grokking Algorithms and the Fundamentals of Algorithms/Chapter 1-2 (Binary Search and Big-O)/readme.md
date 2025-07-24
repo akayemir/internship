@@ -61,6 +61,20 @@ Time → Execution time for non-existent value
 
 The experiment highlights the significant performance difference between **O(n)** and **O(log n)** algorithms as the array size increases. Even at a relatively small size like **150,000 elements**, the **Binary Search** algorithm demonstrates a speed advantage being up to **1000 times faster** than **Linear Search** in some cases.
 
+| #  | Array Size | Linear Search Avg (ns)  | Binary Search Avg (ns)   | More Efficient  |
+|----|------------|-------------------------|--------------------------|-----------------|
+| 1  | 10         | 135.25                  | 146.00                   | ✅ Linear       |
+| 2  | 50         | 208.25                  | 208.00                   | ✅ Binary       |
+| 3  | 100        | 312.50                  | 156.50                   | ✅ Binary       |
+| 4  | 500        | 1364.50                 | 239.25                   | ✅ Binary       |
+| 5  | 1000       | 1895.75                 | 208.25                   | ✅ Binary       |
+| 6  | 5000       | 5728.75                 | 166.75                   | ✅ Binary       |
+| 7  | 10000      | 6521.50                 | 135.50                   | ✅ Binary       |
+| 8  | 50000      | 35020.75                | 93.75                    | ✅ Binary       |
+| 9  | 100000     | 83260.50                | 187.50                   | ✅ Binary       |
+| 10 | 150000     | 117781.00               | 187.75                   | ✅ Binary       |
+
+
 ---
 
 ## 🧠 Observations
