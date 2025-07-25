@@ -21,22 +21,22 @@ The goal of this code is to practise BFS algorithm and check all possible scenar
 
 ## 🖨️ Example Output
 
-A group of friends are in a maze and they want to find the exit.
-Enter the edge of the maze: **5**
-. = path, x = wall, o = visited
-The maze is: 
-..x..
-xxx.x
-x.xxx
-.x..x
-xx...
-The maze after BFS is: 
-oox..
-xxx.x
-x.xxx
-.x..x
-xx...
-The friends did not find the exit.
+A group of friends are in a maze and they want to find the exit.  
+Enter the edge of the maze: **5**  
+. = path, x = wall, o = visited  
+The maze is:   
+..x..  
+xxx.x  
+x.xxx  
+.x..x  
+xx...  
+The maze after BFS is:  
+oox..  
+xxx.x  
+x.xxx  
+.x..x  
+xx...  
+The friends did not find the exit.  
  
 
 ---
@@ -71,44 +71,44 @@ The goal of this code is to practise hash table algorithm and find a solution fo
 
 ## 🖨️ Example Output
 
-Welcome to Phonebook!
-Menu: 
-1. Add a number
-2. Search a number
-3. Exit
-Enter your choice: **1**
-The name of the person: **Emir**
-The number: **5330000101**
-Menu: 
-1. Add a number
-2. Search a number
-3. Exit
-Enter your choice: **1**
-The name of the person: **Mert**
-The number: **5112223344**
-Menu: 
-1. Add a number
-2. Search a number
-3. Exit
-Enter your choice: **2**
-The name of the person: **Emir**
-The number of Emir is: 5330000101.
-Menu: 
-1. Add a number
-2. Search a number
-3. Exit
-Enter your choice: **2**
-The name of the person: **Kerem**
-The person is not found.
-Menu: 
-1. Add a number
-2. Search a number
-3. Exit
-Enter your choice: **3**
-Goodbye!
-The phonebook is: 
-Emir: 5330000101
-Mert: 5112223344
+Welcome to Phonebook!  
+Menu:   
+1. Add a number  
+2. Search a number  
+3. Exit  
+Enter your choice: **1**  
+The name of the person: **Emir**  
+The number: **5330000101**  
+Menu:   
+1. Add a number  
+2. Search a number  
+3. Exit  
+Enter your choice: **1**  
+The name of the person: **Mert**  
+The number: **5112223344**  
+Menu:   
+1. Add a number  
+2. Search a number  
+3. Exit  
+Enter your choice: **2**  
+The name of the person: **Emir**  
+The number of Emir is: 5330000101.  
+Menu:   
+1. Add a number  
+2. Search a number  
+3. Exit  
+Enter your choice: **2**  
+The name of the person: **Kerem**  
+The person is not found.  
+Menu:   
+1. Add a number  
+2. Search a number  
+3. Exit  
+Enter your choice: **3**  
+Goodbye!  
+The phonebook is:   
+Emir: 5330000101  
+Mert: 5112223344  
 
 ---
 
