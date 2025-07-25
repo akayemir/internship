@@ -76,35 +76,35 @@ Menu:
 1. Add a number  
 2. Search a number  
 3. Exit  
-Enter your choice: **1**  
-The name of the person: **Emir**  
-The number: **5330000101**  
+Enter your choice: 1  
+The name of the person: Emir 
+The number: 5330000101  
 Menu:   
 1. Add a number  
 2. Search a number  
 3. Exit  
-Enter your choice: **1**  
-The name of the person: **Mert**  
-The number: **5112223344**  
+Enter your choice: 1
+The name of the person: Mert
+The number: 5112223344  
 Menu:   
 1. Add a number  
 2. Search a number  
 3. Exit  
-Enter your choice: **2**  
-The name of the person: **Emir**  
+Enter your choice: 2 
+The name of the person: Emir  
 The number of Emir is: 5330000101.  
 Menu:   
 1. Add a number  
 2. Search a number  
 3. Exit  
-Enter your choice: **2**  
-The name of the person: **Kerem**  
+Enter your choice: 2  
+The name of the person: Kerem  
 The person is not found.  
 Menu:   
 1. Add a number  
 2. Search a number  
 3. Exit  
-Enter your choice: **3**  
+Enter your choice: 3
 Goodbye!  
 The phonebook is:   
 Emir: 5330000101  
