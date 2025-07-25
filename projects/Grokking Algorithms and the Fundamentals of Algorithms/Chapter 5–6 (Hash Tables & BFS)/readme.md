@@ -70,7 +70,7 @@ The goal of this code is to practise hash table algorithm and find a solution fo
 ---
 
 ## 🖨️ Example Output
-
+```
 Welcome to Phonebook!  
 Menu:   
 1. Add a number  
@@ -109,7 +109,7 @@ Goodbye!
 The phonebook is:   
 Emir: 5330000101  
 Mert: 5112223344  
-
+```
 ---
 
 ## 📊 Conclusion
