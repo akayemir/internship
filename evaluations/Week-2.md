@@ -21,19 +21,19 @@
 * Integrated **OpenTelemetry Collector, Prometheus, Grafana** into the headquarter project to pull Node Exporter client metrics and process them
 Node Exporter configuration
 ```yaml 
-#receivers:
-#  prometheus:
-#    config:
-#      scrape_configs:
-#        - job_name: 'remote-node-exporters'
-#          scrape_interval: 10s
-#          static_configs:
-#            - targets: ["192.168.1.41:9100"]  # Client 1 IP
-#              labels:
-#                instance: "Emir Mac"
-#            - targets: ["192.168.1.95:9100"]  # Client 2 IP
-#              labels:
-#                instance: "Windows"
+receivers:
+  prometheus:
+    config:
+      scrape_configs:
+        - job_name: 'remote-node-exporters'
+          scrape_interval: 10s
+          static_configs:
+            - targets: ["192.168.1.41:9100"]  # Client 1 IP
+              labels:
+                instance: "Emir Mac"
+            - targets: ["192.168.1.95:9100"]  # Client 2 IP
+              labels:
+                instance: "Windows"
 ```
 docker-compose.yml file:  
 ```yaml 
