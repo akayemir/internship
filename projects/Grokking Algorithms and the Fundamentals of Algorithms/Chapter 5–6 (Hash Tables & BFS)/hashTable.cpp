@@ -4,7 +4,7 @@ using namespace std;
 
 struct Person {
     string name;
-    int number;
+    long long number;
 };
 Person arr[11];
 
@@ -22,7 +22,7 @@ int hashFunction(string name)
 int main() {
     
     int input;
-    int number;
+    long long number;
     string name;
     int left = 11;
     cout << "Welcome to Phonebook!" << endl;
