@@ -1,0 +1,6 @@
+@pushHeadquarter_HostAddress = http://localhost:5298
+
+GET {{pushHeadquarter_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
