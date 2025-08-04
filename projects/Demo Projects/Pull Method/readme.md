@@ -78,9 +78,9 @@ The setup includes:
 
 ### 📊 Accessing Dashboards
 
-- Grafana UI → http://localhost:3000
-  Default login
-    username: admin
-    password: admin
+- Grafana UI → http://localhost:3000  
+  Default login  
+    username: admin  
+    password: admin  
 - Prometheus UI → http://localhost:9090
 
