@@ -51,10 +51,10 @@ The setup includes:
   Enter 9182 in the Specific local ports field
 - Click Next
 - Action: Choose "Allow the connection", then click Next.
-- Profile: Make sure all are checked:
-  ✓ Domain
-  ✓ Private
-  ✓ Public
+- Profile: Make sure all are checked:  
+  ✓ Domain  
+  ✓ Private  
+  ✓ Public  
 - Then click Next
 - Name: Enter a name like:
   Windows Exporter Port 9182
