@@ -71,10 +71,10 @@ The setup includes:
   dotnet run
   docker compose up -d
   ```
-- This will start:
-  OpenTelemetry Collector (receiving metrics via prometheusreceiver)
-  Prometheus (scraping metrics from Collector)
-  Grafana (visualizing metrics)
+- This will start:  
+  OpenTelemetry Collector (receiving metrics via prometheusreceiver)  
+  Prometheus (scraping metrics from Collector)  
+  Grafana (visualizing metrics)  
 
 ### 📊 Accessing Dashboards
 
