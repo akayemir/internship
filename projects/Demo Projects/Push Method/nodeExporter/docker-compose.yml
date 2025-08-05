@@ -1,0 +1,8 @@
+services:
+  otel-collector:
+    image: otel/opentelemetry-collector-contrib:latest
+    container_name: station-otelcol
+    volumes:
+      - ./otelcol-config.yaml:/etc/otelcol/config.yaml
+    command: ["--config=/etc/otelcol/config.yaml"]
+    restart: unless-stopped

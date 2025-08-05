@@ -1,0 +1,40 @@
+receivers:
+  prometheus:
+    config:
+      scrape_configs:
+        - job_name: 'windows_exporter'
+          scrape_interval: 10s
+          static_configs:
+            - targets: ['host.docker.internal:9182']
+              labels:
+                instance: "Istasyon_1"
+
+processors:
+  filter:
+    metrics:
+      include:
+        match_type: strict
+        metric_names:
+          - windows_cpu_time_total
+          - windows_memory_physical_total_bytes
+          - windows_memory_physical_free_bytes
+          - windows_process_working_set_bytes
+          - windows_process_start_time_seconds
+          - windows_memory_available_bytes
+          - windows_process_cpu_time_total
+          - windows_logical_disk_free_bytes
+          - windows_logical_disk_size_bytes
+
+  batch:
+    timeout: 10s 
+
+exporters:
+  otlphttp:
+    endpoint: http://192.168.93.226:4318
+
+service:
+  pipelines:
+    metrics:
+      receivers: [prometheus]
+      processors: [filter, batch]
+      exporters: [otlphttp]
