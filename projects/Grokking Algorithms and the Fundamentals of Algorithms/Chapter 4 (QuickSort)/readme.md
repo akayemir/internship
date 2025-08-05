@@ -5,6 +5,8 @@ This project creates a 10000 sized array with random generated numbers. Sorts th
 ## 📌 Description
 
 The goal of this code is to do an implemantation practice of the quicksort algorithm and understand how it works.
+![Quicksort-example](https://github.com/user-attachments/assets/d886cb17-6068-47ce-a886-34fa6da4b8f3)
+
 
 
 ---
