@@ -12,6 +12,8 @@ Factorial is calculated using recursion: n! = n × (n−1) × (n−2) × ... × 
 ## ⚙️ How It Works
 
 - The function `factorial(int n)` recursively multiplies `n` by `factorial(n - 1)` until it reaches the base case `n <= 1`.
+<img width="2042" height="1266" alt="factorial" src="https://github.com/user-attachments/assets/6bd093af-334b-48ca-958f-606dec92a181" />
+
 
 ## 🖨️ Example Output
 
@@ -37,6 +39,8 @@ This program takes an integer `n` from the user and prints the `n.` term of the 
 ## ⚙️ How It Works
 
 - The function `fibonacci(int n)` recursively adds `f(n-1) + f(n-2)` until it reaches the base case.
+<img width="2042" height="1266" alt="fibonacci" src="https://github.com/user-attachments/assets/8d802db6-cc9b-4d48-8765-aeed112ab37f" />
+
 
 ## 🖨️ Example Output
 
