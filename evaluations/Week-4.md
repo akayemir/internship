@@ -25,3 +25,5 @@
 
 ## Day 20
 
+* Presented my presentation.
+* Uploaded my Dashboard code to Demo Projects file.
