@@ -2,7 +2,7 @@
 
 Welcome to the Internship Program!  
 My name is Emir Akay.  
-I am a Computer Science Undergraduate at Bilkent University.
+I am a Computer Science Undergraduate at Bilkent University.  
 This repository contains the work I did during my internship, which took place between July 10, 2025 and August 7, 2025.  
 
 ## Structure
